@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1, 
+        "nombre": "Comic Spider Man", 
+        "precio": 1000, 
+        "cat": "comic",
+        "img": "/img/comic-Spiderman.jpg",
+        "cantidad":1
+    },
+
+    {
+        "id": 2, 
+        "nombre": "Comic Superman", 
+        "precio": 1100, 
+        "cat": "comic",
+        "img":"/img/comic-Superman.jpg",
+        "cantidad":1
+    },
+
+    {
+        "id": 3, 
+        "nombre": "Comic X-Men", 
+        "precio": 1300, 
+        "cat": "comic",
+        "img":"/img/comic-X-Men.jpg",
+        "cantidad":1
+    },
+
+    {
+        "id": 4, 
+        "nombre": "Miniatura Spider Man", 
+        "precio": 2500, 
+        "cat": "miniatura",
+        "img":"/img/miniatura-Spiderman.jpg",
+        "cantidad":1
+    },
+
+    {
+        "id": 5, 
+        "nombre": "Miniatura Superman", 
+        "precio": 2550, 
+        "cat": "miniatura",
+        "img":"/img/miniatura-Superman.jpg",
+        "cantidad":1
+    },
+
+    {
+        "id": 6, 
+        "nombre": "Miniatura X-Men", 
+        "precio": 3100, 
+        "cat": "miniatura",
+        "img":"/img/miniaturaX-Men.jpg",
+        "cantidad":1
+    },
+
+    {
+        "id": 7, 
+        "nombre": "Juegos de Mesa Spider Man", 
+        "precio": 5000, 
+        "cat": "juegos de mesa",
+        "img":"/img/juegoMesa-Spider.jpg",
+        "cantidad":1
+    },
+
+    {
+        "id": 8, 
+        "nombre": "Juegos de Mesa Superman", 
+        "precio": 5200, 
+        "cat": "juegos de mesa",
+        "img":"/img/juegoMesa-Superman.jpg",
+        "cantidad":1
+    },
+
+    {
+        "id": 9, 
+        "nombre": "Juegos de Mesa X-Men", 
+        "precio": 5700, 
+        "cat": "juegos de mesa",
+        "img":"/img/juegoMesa-X-Men.jpg",
+        "cantidad":1
+    }
+]
