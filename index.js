@@ -6,7 +6,7 @@ import { obtenerCarritoStorage } from "./src/storage.js";
 document.addEventListener('DOMContentLoaded', async () => {
     const response = await fetch('/stock.json')
     const stock = await response.json()
-    /* const filtrado = stock.filter(comic => comic.cat === buscarProducto.include) */
+    
     mostrarProductos(stock);
 
     if (localStorage.getItem('carrito')) {
@@ -14,5 +14,16 @@ document.addEventListener('DOMContentLoaded', async () => {
         pintarCarrito(carrito);
         actualizarTotalesCarrito(carrito);
     };
-
+    function filtrar(arr, filtro, param) {
+        return arr.filter((el) => {
+          if (param === "id") {
+            return el.id == filtro;
+          } else if (param === "precio") {
+            return el.precio <= filtro;
+          } else {
+            return el[param].includes(filtro);
+          }
+        });
+    };
+    filtrar (arr, buscarProducto);
 });
